@@ -3,26 +3,26 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Blog | Harsh Bhatia
+title: Blog | Harsh
 subtitle: 
 description: Trying simplicity
-author: Harsh Bhatai
+author: Harsh Bhatia
 language:
 timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://www.harshbhatia.net
-root: /blog
+url: http://www.harshbhatia.net/blog
+root: /blog/
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 
 # Directory
 source_dir: source
 public_dir: public
-tag_dir: tags
-archive_dir: archives
-category_dir: categories
+tag_dir: /blog/tags
+archive_dir: /blog/archives
+category_dir: /blog/categories
 code_dir: downloads/code
 i18n_dir: :lang
 skip_render:
@@ -62,7 +62,7 @@ pagination_dir: page
 # Extensions
 ## Plugins: http://hexo.io/plugins/
 ## Themes: http://hexo.io/themes/
-theme: landscape
+theme: light
 
 # Deployment
 ## Docs: http://hexo.io/docs/deployment.html
